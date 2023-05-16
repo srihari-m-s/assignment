@@ -1,0 +1,96 @@
+.navbar{
+    width: 100vw;
+    height: 8vh;
+    border: 2px solid white;
+    padding: 10px 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-size: 0.85rem ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left select{
+    padding: 10px;
+}
+
+.left select:hover{
+    cursor: pointer;
+}
+
+.left select:active, .left select:focus{
+    border:none;
+    outline: none;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+.search i{
+    font-size: 1rem;
+}
+
+.search button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.search button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 100ms ease-in-out;
+}
+
+.search input{
+    font-size: 1rem;
+    border: none;
+}
+
+.search input:hover{
+    border-bottom: 1px solid black;
+}
+
+.search input:focus{
+    outline-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+#join{
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+    color: white;
+    width: 120px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+#join:hover{
+    cursor: pointer;
+}

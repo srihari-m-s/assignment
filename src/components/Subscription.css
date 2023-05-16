@@ -1,0 +1,55 @@
+.sub-plan{
+    border: 2px solid #999;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 55px;
+    margin: 2px 0;
+}
+
+.sub-plan:active, .sub-plan:hover{
+    border-color: #47ba68;
+    background-color: #dae7de;
+}
+
+.green{
+    border-color: #47ba68;
+    background-color: #dae7de;
+}
+
+.radio-input{
+    font-size: 0.8rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+}
+
+.offer{
+    font-size: .7rem;
+    margin-left: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    /* border: 1px solid red; */
+}
+
+p{
+    margin: 2px;
+}
+
+.big-font{
+    font-size: 1rem;
+    color: black;
+}
+
+.grey{
+    color: #AAA;
+}
+
+.greyed{
+    background-color: #999;
+}

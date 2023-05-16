@@ -1,0 +1,196 @@
+.form-cont{
+    /* border: 1px solid white; */
+    margin-right: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.price-form{
+    background-color: white;
+    border: 2px solid white;
+    padding: 10px 10px;
+    padding-bottom: 30px;
+    margin: 75px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    width: 430px;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.price-form:hover{
+    cursor: pointer;
+}
+
+
+.progress-bar{
+    border: 2px solid white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    margin: 5px 0;
+    margin-top: 0;
+}
+
+.select-button{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.3rem;
+    margin: 10px 0;
+}
+
+.select-button button{
+    background-color: #0096FF;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.select-button button:hover{
+    cursor: pointer;
+}
+
+.select-button label{
+    color: black;
+    font-size: 0.75rem;
+}
+
+.message{
+    font-size: 1rem;
+    color: black;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 15px auto;
+}
+
+hr{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin: 10px 0;
+}
+
+.fee{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    column-gap: 12.8rem;
+    margin: 10px 0;
+}
+
+h3{
+    color: black;
+    margin: 0 15px;
+}
+
+.total{
+    display: flex;
+    flex-flow: row nowrap;
+    /* justify-content: space-around; */
+    align-items: center;
+    column-gap: 9.5rem;
+}
+
+.total h2{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.sub-buttons-div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.sub-buttons-div button{
+    width: 200px;
+    height: 40px;
+}
+
+.discount{
+    border: 2px solid #DE4313;
+    background-color: #dfceca;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: fit-content;
+    margin: 5px 0;
+}
+
+.disc-amount{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    column-gap: 11.75rem;
+    margin: 10px 0;
+}
+
+.expire{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 150px;
+    padding-bottom: 5px;
+}
+
+.clock2{
+    height: 20px;
+    width: 20px;
+    background-color: #DE4313;
+    border-radius: 20%;
+}
+
+.razor{
+    height: 20px;
+    width: fit-content;
+    margin: 10px 0;
+    margin-left: 0;
+}
+
+.black{
+    color:black
+}
+
+.red{
+    color:#DE4313;
+}
+
+.cancel{
+    border: 2px solid #DE4313;
+    border-radius: 5px;
+    color:#DE4313;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.pay{
+    color: white;
+    border: 2px solid #47ba68;
+    border-radius: 5px;
+    background-color: #47ba68;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.pay:hover, .cancel:hover{
+    cursor: pointer;
+}
+
+.greyed{
+    background-color: #999;
+}
