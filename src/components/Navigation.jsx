@@ -9,7 +9,7 @@ function Navigation(){
         <>
             <nav className="navbar" id="navbar">
                 <div className='left'>
-                    <img src="./assets/EDYODA.svg" alt="EdYoda Logo" />
+                    <img src="/assets/EDYODA.svg" alt="EdYoda Logo" />
                     <a href="#courses" className="nav-item">
                         <select name="courses" id="courses" style={{border:"none", fontSize:"1rem"}}>
                             <option value="courses">Courses</option>
