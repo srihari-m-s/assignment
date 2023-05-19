@@ -50,7 +50,7 @@ function Form(){
                     </div>
 
                     <div className='expire'>
-                        <img src="src/assets/clock2.svg" alt="clock icon" className='clock2'/>
+                        <img src="assets/clock2.svg" alt="clock icon" className='clock2'/>
                         <h3 className='red'>Offer valid till 25th March 2023</h3>
                     </div>
                 </div>
